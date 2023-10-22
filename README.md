@@ -1,3 +1,11 @@
-# All-Portfolios
-# 47200936.ipynb 
+# Portfolio 1
+For portfolio 1 I started getting used to the basic functions of jupyter notebook, python and github. I started exploring different packages and basic way to explore datasets. I first explored the data using codes like .head() and .shape. I then used the .isnull() function to see what data needed to be cleaned by using the .dropna function. thorugh exploting the data i was able to see that review which had 'none' also needed to be cleaned. to further explore the now cleaned data set I look at it descriptive stat with the .describe() functon and also grouping it by gender and item. to plot the data i used boxplots generally exploring by gender and catgory. I then removed outliers using the .drop() function
 
+# Portfolio 2
+using the cleaned data set from the previous portfolio, i used an ordinal encoder to encode word values into floats. this is done so we can compare and investigate correlation between these  and other float features. I then split the data into two different training and testing size to compare how diffent size set cna affect machine model learning. I trained the data with linear regression models also using different categories to compare how different categories may affect the machine learning. using mse and rmse we can compare the differnce and which method for machine learning was better.
+
+# Portfolio 3
+As we did previously, I started explorign the new dataset in portfolio 3, cleaning it, encoding and exploring the correlations. this time however I started testing and exploring how accurate testing accuracy is. to do this I implemented rfe to see which features are best to use, and used the knn model; tuning k to see how it influences the prediction performance.
+
+# Portfolio 4
+Portfolio 4 was using what  I learnt from the previous portfolios and implementing it to explore a dataset of my own choosing. I explored and cleaned the data; calculating outliers and removing them. I had encoded the data and used various graphs to get a better understanding/visual on the data. the sns pairplot was especially useful in visualing the correlation. I had used the rfe model to see which features are best to use to train the machine learning model, in which i chose to use 'want watch' in my leaner regrassion. I oberserve how usign the the linear regression was more accurate (via mse, rmse, r squared) than using a simeple .predict() function. using rhe polynomial regression the values predicted have changed and become mroe accurate. using clusters helped me further understand the data. using the knn model and tuning k i was able to make testing more accurate
