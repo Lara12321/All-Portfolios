@@ -1,3 +1,3 @@
 # All-Portfolios
-git clone <47200936.ipynb> 
+# 47200936.ipynb 
 
